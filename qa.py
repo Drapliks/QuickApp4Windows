@@ -3,7 +3,7 @@ import webbrowser
 print("Здарствуйте, Drapliks")
 print("Список команд:")
 print("1.clc - Запускает калькулятор.")
-print("2.ff - Запускает браузер")
+print("2.ff - Запускает браузер.")
 print("3.mnp - Запускает базовые программы.")
 print("4.devp - Запускает программы для разаработки.")
 print("5.alp - Запускает все программы.")
@@ -12,15 +12,18 @@ def clc():
     print(">>"+str(eval(input(">>"))))
 def mainProgs():
     os.startfile(r'C:/Users/Drapliks/AppData/Roaming/Telegram Desktop/Telegram.exe')
-    webbrowser.open("https://music.yandex.ru/")
+    os.startfile(r'C:/Users/Drapliks/AppData/Local/Programs/YandexMusic/Яндекс Музыка.exe')
+    os.startfile(r"C:/Users/Drapliks/quickapp/qa.exe")
 def devProgs():
     os.startfile(r'C:/Program Files/Unity Hub/Unity Hub.exe')
     os.startfile(r"C:/Users/Drapliks/AppData/Local/Programs/Microsoft VS Code/Code.exe")
+    os.startfile(r"C:/Users/Drapliks/quickapp/qa.exe")
 def allProg():
     os.startfile(r'C:/Users/Drapliks/AppData/Roaming/Telegram Desktop/Telegram.exe')
-    webbrowser.open("https://music.yandex.ru/")
+    os.startfile(r'C:/Users/Drapliks/AppData/Local/Programs/YandexMusic/Яндекс Музыка.exe')
     os.startfile(r'C:/Program Files/Unity Hub/Unity Hub.exe')
     os.startfile(r"C:/Users/Drapliks/AppData/Local/Programs/Microsoft VS Code/Code.exe")
+    os.startfile(r"C:/Users/Drapliks/quickapp/qa.exe")
 def poweroff():
     os.startfile("C:/Windows/System32/SlideToShutDown.exe")
 def ff():
