@@ -13,19 +13,22 @@ def clc():
 def mainProgs():
     os.startfile(r'C:/Users/Drapliks/AppData/Roaming/Telegram Desktop/Telegram.exe')
     os.startfile(r'C:/Users/Drapliks/AppData/Local/Programs/YandexMusic/Яндекс Музыка.exe')
-    os.startfile(r"C:/Users/Drapliks/quickapp/qa.exe")
+    os.startfile(r"C:/Users/Drapliks/qa.exe")
 def devProgs():
     os.startfile(r'C:/Program Files/Unity Hub/Unity Hub.exe')
     os.startfile(r"C:/Users/Drapliks/AppData/Local/Programs/Microsoft VS Code/Code.exe")
-    os.startfile(r"C:/Users/Drapliks/quickapp/qa.exe")
+    os.startfile(r'C:/Users/Drapliks/AppData/Local/Programs/YandexMusic/Яндекс Музыка.exe')
+    webbrowser.open("https://github.com/Drapliks?tab=repositories")
+    os.startfile(r"C:/Users/Drapliks/qa.exe")
 def allProg():
     os.startfile(r'C:/Users/Drapliks/AppData/Roaming/Telegram Desktop/Telegram.exe')
     os.startfile(r'C:/Users/Drapliks/AppData/Local/Programs/YandexMusic/Яндекс Музыка.exe')
     os.startfile(r'C:/Program Files/Unity Hub/Unity Hub.exe')
+    webbrowser.open("https://github.com/Drapliks?tab=repositories")
     os.startfile(r"C:/Users/Drapliks/AppData/Local/Programs/Microsoft VS Code/Code.exe")
-    os.startfile(r"C:/Users/Drapliks/quickapp/qa.exe")
+    os.startfile(r"C:/Users/Drapliks/qa.exe")
 def poweroff():
-    os.startfile("C:/Windows/System32/SlideToShutDown.exe")
+    os.startfile(r"C:/Windows/System32/SlideToShutDown.exe")
 def ff():
     os.startfile(r"C:/Program Files/Mozilla Firefox/firefox.exe")
 while True:
