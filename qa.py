@@ -1,31 +1,15 @@
 import os
-import webbrowser
 print("Здарствуйте, Drapliks")
 print("Список команд:")
 print("1.clc - Запускает калькулятор.")
 print("2.ff - Запускает браузер.")
 print("3.mnp - Запускает базовые программы.")
-print("4.devp - Запускает программы для разаработки.")
-print("5.alp - Запускает все программы.")
-print("6.pof - Выключить компьютер.")
+print("4.pof - Выключить компьютер.")
 def clc():
     print(">>"+str(eval(input(">>"))))
 def mainProgs():
     os.startfile(r'C:/Users/Drapliks/AppData/Roaming/Telegram Desktop/Telegram.exe')
     os.startfile(r'C:/Users/Drapliks/AppData/Local/Programs/YandexMusic/Яндекс Музыка.exe')
-    os.startfile(r"C:/Users/Drapliks/qa.exe")
-def devProgs():
-    os.startfile(r'C:/Program Files/Unity Hub/Unity Hub.exe')
-    os.startfile(r"C:/Users/Drapliks/AppData/Local/Programs/Microsoft VS Code/Code.exe")
-    os.startfile(r'C:/Users/Drapliks/AppData/Local/Programs/YandexMusic/Яндекс Музыка.exe')
-    webbrowser.open("https://github.com/Drapliks?tab=repositories")
-    os.startfile(r"C:/Users/Drapliks/qa.exe")
-def allProg():
-    os.startfile(r'C:/Users/Drapliks/AppData/Roaming/Telegram Desktop/Telegram.exe')
-    os.startfile(r'C:/Users/Drapliks/AppData/Local/Programs/YandexMusic/Яндекс Музыка.exe')
-    os.startfile(r'C:/Program Files/Unity Hub/Unity Hub.exe')
-    webbrowser.open("https://github.com/Drapliks?tab=repositories")
-    os.startfile(r"C:/Users/Drapliks/AppData/Local/Programs/Microsoft VS Code/Code.exe")
     os.startfile(r"C:/Users/Drapliks/qa.exe")
 def poweroff():
     os.startfile(r"C:/Windows/System32/SlideToShutDown.exe")
@@ -39,12 +23,6 @@ while True:
     if cmd == "mnp":
         print("Выполняю...")
         mainProgs()
-    if cmd == "devp":
-        print("Выполняю...")
-        devProgs()
-    if cmd == "alp":
-        print("Выполняю...")
-        allProg()
     if cmd == "pof":
         print("Выполняю...")
         poweroff()
